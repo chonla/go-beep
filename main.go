@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var outFn = fmt.Print
+
 func main() {
-	fmt.Print("\a")
+	outFn("\a")
 }
